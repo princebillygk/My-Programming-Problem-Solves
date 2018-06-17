@@ -12,6 +12,6 @@ int main(){
         r=R*sin(pi/n)/(1+sin(pi/n));
         printf("Case %d: %f\n",i,r);
     }
-    printf("\n");
+//    printf("\n");
     return 0;
 }
