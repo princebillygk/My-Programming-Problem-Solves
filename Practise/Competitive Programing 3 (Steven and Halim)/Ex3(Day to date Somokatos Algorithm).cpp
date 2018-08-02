@@ -11,7 +11,7 @@ string day[7]={"Sun","Mon","Tues","Wed","Thurs","Fri","Sat"};
 }
 int main(){
     int d,m,y;
-    while(scanf("%d %d %d",&d,&m,&y)!=EOF){
+    while(scanf("%d/ %d/ %d",&d,&m,&y)!=EOF){
     cout<<"Day: "<<day[dateToDay(d,m,y)]<<endl<<endl;
     }
     return 0;

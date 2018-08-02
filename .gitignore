@@ -4,5 +4,6 @@
 *.o
 *.exe
 *.class
+input.txt
 
 
