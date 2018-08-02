@@ -92,8 +92,5 @@ int main(){
 	for(int i=0;i<n;i++){
 		cout<<pep[i].Name<<": "<<pep[i].showAge()<<endl;
 	}
-	
-	
-
     return 0;
 }

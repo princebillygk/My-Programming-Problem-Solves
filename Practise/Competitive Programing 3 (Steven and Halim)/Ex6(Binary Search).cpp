@@ -39,4 +39,5 @@ int main(){
 		loc==-1?printf("Item Not Found")
 		:printf("Item Found at loc: %d",loc);
 		return 0;
+
 }

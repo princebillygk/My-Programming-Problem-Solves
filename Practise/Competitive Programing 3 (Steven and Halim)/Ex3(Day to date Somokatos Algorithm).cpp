@@ -15,4 +15,5 @@ int main(){
     cout<<"Day: "<<day[dateToDay(d,m,y)]<<endl<<endl;
     }
     return 0;
+
 }
