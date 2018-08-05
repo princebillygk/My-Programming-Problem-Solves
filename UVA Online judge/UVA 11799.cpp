@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 	int T,N,speed,maxSpeed;
 	scanf("%d",&T);
-	for(int i=0;i<T;i++){
+	for(int i=1;i<=T;i++){
 		maxSpeed=0;
 		scanf("%d",&N);
 		while(N--){
