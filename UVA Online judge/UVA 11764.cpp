@@ -17,7 +17,7 @@ int main(){
 			else if(ha<hb)
 				lowJump++;
 		}
-		printf("Case %d:  %d %d\n",i,highJump,lowJump);
+		printf("Case %d: %d %d\n",i,highJump,lowJump);
 	}
 	return 0;
 }
