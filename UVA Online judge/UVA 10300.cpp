@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	freopen("output.txt","w",stdout);
+	//freopen("output.txt","w",stdout);
 	int T,totalPremium,sizeOfFarm,numOfAnimal,envFr,numOfFarmer;
 	scanf("%d",&T);
 	while(T--){
@@ -14,7 +14,7 @@ int main(){
 		}
 		cout<<totalPremium<<endl;
 	}
-	fclose(stdout);
-	system("gedit output.txt");
+	//fclose(stdout);
+	//system("gedit output.txt");
 	return 0;
 }
