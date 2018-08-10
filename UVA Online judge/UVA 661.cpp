@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	freopen("output.txt","w",stdout);
+	//freopen("output.txt","w",stdout);
 	int N,M,capacityOfFuses,consumptionOfDevices[20],deviceId,
 	maxConsumption,currentTotalConsumption,counter=0;
 	bool flag;
@@ -39,8 +39,8 @@ int main(){
 			cout<<"Fuse was blown."<<endl;	
 		cout<<endl;	
 	}
-	fclose(stdout);
-	system("geany output.txt");
+	//fclose(stdout);
+	//system("geany output.txt");
 	return 0;
 }
 /*
