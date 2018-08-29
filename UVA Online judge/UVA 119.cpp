@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	freopen("output.txt","w",stdout);
+	//freopen("output.txt","w",stdout);
 	struct fr{
 		string name;
 		int money;
@@ -51,8 +51,8 @@ int main(){
 		for(int i=0;i<numberOfFriends;i++)
 			cout<<friends[i].name<<" "<<friends[i].money<<endl;
 	}
-	fclose(stdout);
-	system("gedit output.txt");
+	//fclose(stdout);
+	//system("gedit output.txt");
 	return 0;
 	
 }
