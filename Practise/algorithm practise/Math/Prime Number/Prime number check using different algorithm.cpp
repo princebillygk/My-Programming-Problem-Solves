@@ -25,7 +25,7 @@ void prime_o_sqrt_n(long long int n){
 	cout<<"The number is prime."<<endl;
 } 
 
-
+//seive algorithm
 void prime_o_log_n(long long int n){
 	
 	bool a[n+1];
@@ -40,7 +40,7 @@ void prime_o_log_n(long long int n){
 		}
 	}
 	//open this to show all prime nuber until n
-	//*
+	/*
 	  for(int i=0;i<=n;i++){
 		if(a[i]){
 			cout<<i<<", ";
