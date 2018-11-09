@@ -60,9 +60,9 @@ int main(){
 	long long int n;
 	cout<<"Enter n: ";
 	cin>>n;
-	prime_o_n(n);
+	//prime_o_n(n);
 	prime_o_sqrt_n(n);
-	prime_o_log_n(n);
+	//prime_o_log_n(n);
 	
 	return 0;
 }
