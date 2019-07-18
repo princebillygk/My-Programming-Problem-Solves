@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
-
 using namespace std;
+
+unsigned long long* player = new unsigned long long[1000000];
 
 int main(){
     //*/
@@ -17,7 +18,6 @@ int main(){
     * endpotint :indicate the tail of a snaki or top of a ladder
     * 
     */
-    unsigned long long* player = new unsigned long long[1000000];
     //player vector  :for holding thier position
     int cplayer,roll;
     /*
