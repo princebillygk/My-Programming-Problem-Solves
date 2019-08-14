@@ -24,26 +24,6 @@
 | float              | 4bytes           | +/- 3.4e +/- 38 (~7 digits)                    |
 | double             | 8bytes           | +/- 1.7e +/- 308 (~15 digits)                  |
 
-#### STL library
-
-------
-
-##### vector: dynamic array
-
-*header file: vector*
-
-```
-vector<data_type> variable  
-```
-
-**.begin() /.rend()** :  return starting index **.end()/rbegin() :** Return ending index  
-
-**.size() :** returns the size of vector
-
-**empty() : **checks if the vector is empty
-
-***we can access it with index like variable[index]***
-
 
 
 ## Tricks
