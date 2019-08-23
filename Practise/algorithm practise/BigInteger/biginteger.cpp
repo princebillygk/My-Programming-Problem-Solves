@@ -4,8 +4,8 @@ using namespace std;
 
 int main(){
 	//*/
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
+	freopen("_input.txt","r",stdin);
+	freopen("_output.txt","w",stdout);
 	//*/
 
 	char str1[400],str2[400];
