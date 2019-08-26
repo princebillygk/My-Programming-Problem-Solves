@@ -82,7 +82,7 @@ printf("%s\n",name );
 
 ```
 
-***NB> this trick can be  used to take input a line with spaces*** 
+***NB> this trick can be  used to take input a line with spaces (Using this trick is dangerous use gets instead of this)***  
 
 #### Input
 
