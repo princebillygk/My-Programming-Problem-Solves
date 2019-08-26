@@ -8,6 +8,7 @@ input.txt
 output.txt
 check.txt
 precode/
+temp*.cpp
 
 
 
