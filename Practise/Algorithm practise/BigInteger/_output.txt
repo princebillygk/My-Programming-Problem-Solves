@@ -1,0 +1,32 @@
+Addition: 1332
+Substraction: 1136
+Multiplication: 120932
+
+Addition: 2023
+Substraction: 445
+Multiplication: 973626
+
+Addition: 10000
+Substraction: 9998
+Multiplication: 9999
+
+Addition: 2567
+Substraction: 1901
+Multiplication: 743922
+
+Addition: 1001
+Substraction: 999
+Multiplication: 1000
+
+Addition: 10000233
+Substraction: 9999765
+Multiplication: 2339999766
+
+Addition: 24656566665765
+Substraction: 77809719818919
+Multiplication: 28884436307109387768176666
+
+Addition: 234234566776884865963569469748848
+Substraction: 234234501691980181262920998902002
+Multiplication: 76225661672573294319381471806877583353167031028649429775
+
