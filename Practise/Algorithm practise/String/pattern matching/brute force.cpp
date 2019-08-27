@@ -3,15 +3,15 @@
 using namespace std;
 
 //*
-int mystrstr(char * str , char* pattern){	
-	int lenStr=strlen(str), lenPat=strlen(pattern);
+int mystrstr(char * string , char* pattern){	
+	int lengthOfString=strlen(string), lengthOfPattern=strlen(pattern);
 	int i, j;
-	for(i=0;i<=lenStr-lenPat;i++){
-		for (j=0; j<lenPat;j++){
-			if(str[i+j]!=pattern[j])
+	for(i=0;i<=lengthOfString-lengthOfPattern;i++){
+		for (j=0; j<lengthOfPattern;j++){
+			if(string[i+j]!=pattern[j])
 				break;
 		}
-		if(j==lenPat) //if found
+		if(j==lengthOfPattern) //if found
 			return i;
 	}
 	return -1; //if not found
