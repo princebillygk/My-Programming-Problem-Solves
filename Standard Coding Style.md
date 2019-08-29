@@ -10,7 +10,7 @@ Use C++11 version as it is widely available.
 
 ### Order:
 
-- **Structure order: **
+- **Structure order:**
 
    include> define> typedef> using >  global struct > global class>global variable> function declaration> main> function body.
 
