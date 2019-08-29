@@ -37,7 +37,7 @@ Use C++11 version as it is widely available.
 
 - initialize variable when it is possible
 
-  **Bad practice: **
+  **Bad practice:**
 
   ```c++
   int i;
@@ -68,7 +68,7 @@ Use C++11 version as it is widely available.
 -  common rules
 
   ```c++
-  void f(bool b) 	//Space before opening brackets
+  void f(bool b) {	//Space before opening brackets
   int i = 0;  	// No space before semicolon
   ```
 
