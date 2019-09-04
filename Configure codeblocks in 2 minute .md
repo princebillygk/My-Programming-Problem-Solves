@@ -78,7 +78,7 @@
 
 #### Source formatter >
 
-- I always prefer java style bracketing 
+- I always prefer java style bracketing. check "java"
 
   <img src="https://i.ibb.co/Vx8g9tB/image.png" alt="image" border="0">
 
