@@ -10,4 +10,5 @@ check.txt
 precode/
 temp*.cpp
 .idea/
+.temp/
 
