@@ -62,7 +62,7 @@
 
   #### Margin and Caret>
 
-- decrease the width of line number column to see code more widely.
+- decrease the width of line number column to see code more widely. check "Dynamic Settings"
 
   <img src="https://i.ibb.co/1JyzB7F/image.png" alt="image" border="0"> 
 
