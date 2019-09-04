@@ -5,7 +5,7 @@ typedef long long ll;
 ll ugly[1500];
 int main(){
 
-	//*/
+	/*/
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 	//*/
@@ -14,7 +14,7 @@ int main(){
 	int input;
 
 	ugly[0]=1;
-	
+
 	while(index<1500){
 		test2=ugly[counter2]*2;
 		test3=ugly[counter3]*3;
@@ -39,7 +39,7 @@ int main(){
 		if(ugly[index-2]==ugly[index-1])
 			index--;
 	}
-	
+
 	printf("The 1500'th ugly number is %lld.\n",ugly[1500-1]);
 
 	return 0;

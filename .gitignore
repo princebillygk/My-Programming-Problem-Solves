@@ -9,6 +9,5 @@ output.txt
 check.txt
 precode/
 temp*.cpp
-
-
+.idea/
 
