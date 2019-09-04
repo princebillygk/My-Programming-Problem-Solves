@@ -50,7 +50,7 @@
 
   
 
-  #### General Settings>Other editor Settings> 
+#### General Settings>Other editor Settings> 
 
 - Show white spaces> Select "Only after Indent"
 
