@@ -4,7 +4,7 @@
 
 ### Compiler settings: Settings > Compiler >
 
-- Set Compiler to support c++ 11
+- Set Compiler to support c++ 14
 
 - ***(The ACM ICPC official website [Programming Environment ](https://icpc.baylor.edu/worldfinals/programming-environment) tells you exactly what the code will be excepted in world final ; notably, it's with the `-gnu++14` flag.)***
 
