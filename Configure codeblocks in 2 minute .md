@@ -6,15 +6,15 @@
 
 - Set Compiler to support c++ 11
 
-- ***(The ACM ICPC official website [Programming Environment ](https://icpc.baylor.edu/worldfinals/programming-environment) tells you exactly what the code will be excepted in world final ; notably, it's with the `-gnu++11` flag.)***
+- ***(The ACM ICPC official website [Programming Environment ](https://icpc.baylor.edu/worldfinals/programming-environment) tells you exactly what the code will be excepted in world final ; notably, it's with the `-gnu++14` flag.)***
 
   Compiler flags >
 
-  Check C++ 11 support
+  Check C++ 14 support
   
   
   
-  <img src="https://i.ibb.co/F82vpmz/Screenshot-from-2019-09-04-14-49-29.png" alt="Screenshot-from-2019-09-04-14-49-29" border="0">
+  <img src="https://i.ibb.co/FJbVrhK/image.png" alt="image" border="0">
 
 
 
