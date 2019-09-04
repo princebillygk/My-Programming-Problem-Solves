@@ -76,7 +76,7 @@
 
   
 
-  #### Source formatter >
+#### Source formatter >
 
 - I always prefer java style bracketing 
 
