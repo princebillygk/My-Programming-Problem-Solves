@@ -26,7 +26,7 @@ int main(){
 					}
 			      //cout<<friends[j].name<<" "<<friends[j].money<<endl;
 					break;
-				}	
+				}
 			}
 			if(numberOfGivenFriends)
 				moneyPerPerson=moneyGiven/numberOfGivenFriends;
@@ -41,9 +41,9 @@ int main(){
 						  //cout<<friends[k].name<<" "<<friends[k].money
 						  //<<endl;
 							break;
-						}	
+						}
 					}
-				}				
+				}
 			}
 		}
 		if(counter++)
@@ -54,5 +54,6 @@ int main(){
 	//fclose(stdout);
 	//system("gedit output.txt");
 	return 0;
-	
+
 }
+dsfdfsdfffffffffffffffffffffffffffffffffffwdjifjasidfhsndfgvashfdijgvnsifhvasndvnhfsiuvnsidfviudsnfvn
