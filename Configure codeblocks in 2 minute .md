@@ -80,7 +80,7 @@
 
 - I always prefer java style bracketing 
 
-  ![1567590386364](/home/princebilly/.config/Typora/typora-user-images/1567590386364.png)
+  <img src="https://i.ibb.co/Vx8g9tB/image.png" alt="image" border="0">
 
 
 
