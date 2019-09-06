@@ -4,17 +4,17 @@
 
 ### Compiler settings: Settings > Compiler >
 
-- Set Compiler to support c++ 11
+- Set Compiler to support c++ 14
 
-- ***(The ACM ICPC official website [Programming Environment ](https://icpc.baylor.edu/worldfinals/programming-environment) tells you exactly what the code will be excepted in world final ; notably, it's with the `-gnu++11` flag.)***
+- ***(The ACM ICPC official website [Programming Environment ](https://icpc.baylor.edu/worldfinals/programming-environment) tells you exactly what the code will be excepted in world final ; notably, it's with the `-gnu++14` flag.)***
 
   Compiler flags >
 
-  Check C++ 11 support
+  Check C++ 14 support
   
   
   
-  <img src="https://i.ibb.co/F82vpmz/Screenshot-from-2019-09-04-14-49-29.png" alt="Screenshot-from-2019-09-04-14-49-29" border="0">
+  <img src="https://i.ibb.co/FJbVrhK/image.png" alt="image" border="0">
 
 
 
@@ -50,7 +50,7 @@
 
   
 
-  #### General Settings>Other editor Settings> 
+#### General Settings>Other editor Settings> 
 
 - Show white spaces> Select "Only after Indent"
 
@@ -62,7 +62,7 @@
 
   #### Margin and Caret>
 
-- decrease the width of line number column to see code more widely.
+- decrease the width of line number column to see code more widely. check "Dynamic Setting"
 
   <img src="https://i.ibb.co/1JyzB7F/image.png" alt="image" border="0"> 
 
@@ -76,11 +76,11 @@
 
   
 
-  #### Source formatter >
+#### Source formatter >
 
-- I always prefer java style bracketing 
+- I always prefer java style bracketing. check "java"
 
-  ![1567590386364](/home/princebilly/.config/Typora/typora-user-images/1567590386364.png)
+  <img src="https://i.ibb.co/Vx8g9tB/image.png" alt="image" border="0">
 
 
 
@@ -115,5 +115,5 @@
   	//*/
   ```
 
-N>B>** don't forget to comment this code before submitting **
+  N>B>**don't forget to comment this code before submitting**
 
