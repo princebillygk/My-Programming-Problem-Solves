@@ -11,4 +11,5 @@ precode/
 temp*.cpp
 .idea/
 .temp/
+debug.txt
 
