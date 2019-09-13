@@ -13,6 +13,8 @@ temp*.cpp
 .temp/
 debug.txt
 check.txt
+test.cpp
+a.out
 
 #vim
 
