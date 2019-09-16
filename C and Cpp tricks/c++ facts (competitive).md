@@ -59,7 +59,7 @@ global_string =
 
 When we initialize a array with less item with {} the leftover elements are automatically initialized to 0. 
 
-**n.b> array can be assigned  with {} only at initialization time. (not even for char sequence = string)**
+**n.b> array can be assigned  with {} only at initialization time. (not even for char sequence can be intialized using "")**
 
 ```c++
 //Experiment with array
