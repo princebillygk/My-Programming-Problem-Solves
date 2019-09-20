@@ -1,6 +1,6 @@
-# Vector Note
+# Vector note
 
-A vector is  similar to array with dynamic size.
+A vector is similar to an array with dynamic size.
 
 **Features:**
 
@@ -14,7 +14,7 @@ A vector is  similar to array with dynamic size.
 
 Vector does not increase its space every time we insert an element (which is a very inefficient and expensive task in terms of processing time) instead it allocate some extra spaces at some logarithmic intervals when we use push_back() or emplace_back() member function. to get the size of the currently allocated capacity we can use capacity() member function.
 
-```
+```c++
 myvec.assign(12,0);
 printf("capacity: %lu\n", myvec2.capacity());
 myvec2.push_back(3);
@@ -27,11 +27,11 @@ printf("capacity: %lu\n", myvec2.capacity());
 
 ## RESERVE & SHRINK
 
-sometime the number of item can be so big so that you may want to reserve some space before the execution of the program. It doesn't add any vector elements but increases the vector capacity.
+sometime the number of the item can be so big so that you may want to reserve some space before the execution of the program. It doesn't add any vector elements but increases the vector capacity.
 
-reserver(size)
+reserve(size)
 
-```
+```c++
 myvec.reserve(10000);
 ```
 
@@ -39,7 +39,7 @@ sometime you may want free extra spaces reserved by vector
 
 shrink_to_fit();
 
-```
+```c++
 myvec.shrint_to_fit()
 ```
 
@@ -49,7 +49,7 @@ the vector size is increasable at any time depending on free sequential memory a
 
 **declaration  syntax:**
 
-```
+```c++
 vector< typename >var
 vector< typename >var(size) //all indices value will set to zero
 vector< typename >var(size, value) //all indices value will be initialized with the argument "value" given
@@ -61,7 +61,7 @@ vector< typename >var({item1, item2, item3,...})
 
 if we declare an empty vector we can also assign it letter using assign() member function
 
-```
+```c++
 var.assign(size, value)
 var.assign(start_iterator, end_iterator)
 var.assign((initializer_list::< typename >{item1, item2, item3,...}) //or just
@@ -70,7 +70,7 @@ var.assign({item1, item2, item3,...})
 
 or you can assign it to the same as another vector by using "=" sign.
 
-```
+```c++
 vector1 = vector2;
 myvector = {1,2, 3, 4}
 myvector  = initializer_list<int>{1, 2, 4, 5}
@@ -78,10 +78,10 @@ myvector  = initializer_list<int>{1, 2, 4, 5}
 
 We can also insert any element at beginning or middle but time complexity will be O(N). if we insert element at last then the time complexity will be O(1) for each element.
 
-```
+```c++
 insert(iterator_position, value)
 insert(iterator_position, size, value) 
-insert(iterater_position, start_iterator, end_iterato)
+insert(iterater_position, start_iterator, end_iterator)
 insert(iterator_position, initializer_list< typename >{item1, item2, ....}) //or just
 insert(postion, {item1, item2, ...})
 ```
@@ -98,11 +98,11 @@ vector< int >i[10] declares a array of vectors.
 
 vector< int > myvec2(myvec.begin(), myvec.begin() + 3); using iterator
 
-vector< int >myvec1(initializer_list< int >{1, 2, 3});  using initializer list the first item of the
+vector< int >myvec1(initializer_list< int >{1, 2, 3});  
 
-another way easy way vector< int >myvec1({1,2,3});
+another way (easy way) vector< int >myvec1({1,2,3});
 
-vector will be 1 the second will be 2 and the third will be 3.
+using initializer list the first item of the vector will be 1 the second will be 2 and the third will be 3.
 
 vector< stack< int > >i declares a vector of stack
 
@@ -112,7 +112,7 @@ Here is example of vector of of vectors:
 
 matrix of size nxm where all elements are initialized to -1
 
-```
+```c++
 vector< vector< int > > myvec5(3, vector<int>(5, -1));
 for (auto i : myvec5) {
     for (auto j : i) {
@@ -135,14 +135,14 @@ output:
 
 to get the value of item we can simply use the member function at(index) or use [index]
 
-```
+```c++
 myvec.at(x) //throws error if invalid index is being send
 myvec[x]    //returns garbage value if invalid index is being send
 ```
 
 get the first item using myvec.front() and last item myvec.back()
 
-```
+```c++
 myvec.front();
 myvec.back();
 ```
@@ -151,7 +151,7 @@ to get the value first item guess what? ans: myvec[0] or myvec.at(0)
 
 ## CHANGE AN ITEM IN VECTOR:
 
-```
+```c++
 myvec[x] = value;
 ```
 
@@ -191,20 +191,14 @@ to remove a area erase(start_iterator, end_iterator)
 
 ## OTHER IMPORTANT FUNCTION:
 
+### EMPTY()
+
 empty();  checks weather the vector is empty or not
 
-size(): get the size of vector
-
-## VECTOR SIZE()
+### VECTOR SIZE()
 
 size()
 
-## SWAP
+### SWAP()
 
 myvec.swap(another_vector)
-
-problems to solve:
-
-https://www.hackerrank.com/challenges/vector-sort/problem
-
-https://www.hackerrank.com/challenges/vector-erase/problem
