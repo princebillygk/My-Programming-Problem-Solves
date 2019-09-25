@@ -54,7 +54,7 @@ vector< typename >var
 vector< typename >var(size) //all indices value will set to zero
 vector< typename >var(size, value) //all indices value will be initialized with the argument "value" given
 vector< typename >var(start_iterator, end_iterator)
-vector< typename >var(vector)
+vector< typename >var(another_vec)
 vector< typename >var(initializer_list< typename >{item1, item2, item3,...}) //or just
 vector< typename >var({item1, item2, item3,...})
 ```
