@@ -1,31 +1,47 @@
-#include<iostream>
+#include <bits/stdc++.h> 
+
 using namespace std;
 
-int main(){
-	int n;
-	
-	cout<<"How many elements do you want to enter?"<<endl;
-	cin>>n;
-	int a[n],b[n];
-	cout<<"Enter them: "<<endl;
-	for(int i=0;i<n;i++){
-		cout<<i+1<<": ";
-		cin>>a[n];
+int main() {
+	freopen("input.txt", "r", stdin);
+	int length, inp, key;
+	vector<int> arr;
+	printf("Enter the length of the array: ");
+	scanf("%d", &length);
+	printf("length: %d\nEnter the items of array:\n",
+			length);
+	for (int i = 0; i < length; ++i) {
+		scanf("%d", &inp);
+		arr.push_back(inp);
 	}
-	
-	b[0]=a[0];
-	for(int i=1;i<n;i++){
-		for(int j=0;j<i;j++){
-			if(a[i]<b[j]){
-				for(int k=j;k<=i;k++)
-					b[k+1]=b[k];
+	//outputing the inputed array
+	printf("Before sorted:\n");
+	for (int i = 0; i < length; ++i) {
+		printf("%d ", arr.at(i));
+	}
+	printf("\n");
+	//insertion sort;
+	for (int i = 1; i < length; ++i) {
+		printf("iter : arr[%d] = %d\n", i, arr[i]);
+		key = arr.at(i);
+		for (int j = i - 1; j >= 0; --j) {
+			printf("check: arr[%d]:%d = %d\n", j, arr[j], (arr.at(j) > key));
+			if (arr.at(j) > key) {
+				arr[j + 1] = arr[j];
+				arr[j] = key;
 			}
 		}
-		b[i]=a[i];
+		printf("Current state:\n");
+		for (int i = 0; i < length; ++i) {
+			printf("%d ", arr.at(i));
+		}
+		printf("\n");
 	}
-	
-	for(int i=0;i<n;i++)
-		cout<<b[i]<<" ";
-	
+	//outputing the sorted array
+	printf("After sorted:\n");
+	for (int i = 0; i < length; ++i) {
+		printf("%d ", arr.at(i));
+	}
+	printf("\n");
 	return 0;
 }
