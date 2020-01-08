@@ -24,12 +24,9 @@ int main() {
 	for (int i = 1; i < length; ++i) {
 		printf("iter : arr[%d] = %d\n", i, arr[i]);
 		key = arr.at(i);
-		for (int j = i - 1; j >= 0; --j) {
-			printf("check: arr[%d]:%d = %d\n", j, arr[j], (arr.at(j) > key));
-			if (arr.at(j) > key) {
-				arr[j + 1] = arr[j];
-				arr[j] = key;
-			}
+		for (int j = i - 1; j >= 0 && arr.at(j) > key; --j) {
+			arr[j + 1] = arr[j];
+			arr[j] = key;
 		}
 		printf("Current state:\n");
 		for (int i = 0; i < length; ++i) {

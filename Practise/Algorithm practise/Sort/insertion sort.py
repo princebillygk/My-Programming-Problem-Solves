@@ -17,10 +17,13 @@ for i in range(1, length):
         if a[j] > key:
             a[j + 1] =  a[j]
             a[j] = key
+        else: 
+            break
             
 #output
 print("After Sorted:");
 print(a);
+
 
 
 
